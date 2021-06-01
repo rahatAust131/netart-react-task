@@ -1,0 +1,35 @@
+.content-container {
+    display: block;
+    margin: 5px auto;
+    padding: 5px;
+    font-size: 0.9rem;
+}
+.content-text {
+    margin: 5px 15px;
+}
+.text-center {
+    text-align: center;
+}
+.content-img {
+    margin: 3px;
+}
+.content-img img {
+    display: block;
+    width: 75%;
+    margin: auto;
+}
+
+/* media query for responsiveness */
+@media screen and (max-width: 992px) and (min-width: 360px) {
+    .content-container {
+        font-size: 0.75rem;
+    }
+    .content-text {
+        margin: 5px 10px;
+    }
+    .content-img img {
+        display: block;
+        width: 85%;
+        margin: auto;
+    }
+}

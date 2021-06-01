@@ -1,0 +1,52 @@
+.footer-container {
+    background-color: #ec3237;
+    min-height: 15vh;
+    color: white;
+    font-size: 1rem;
+    margin: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hyperlink {
+    text-align: center;
+    width: 33%;
+}
+.hyperlink a {
+    color: white;
+    text-decoration: none;
+}
+.hyperlink a:hover {
+    color: cyan;
+}
+.icon {
+    font-size: 1.25rem;
+    margin: 5px;
+}
+.phone-icon {
+    margin: 5px 1px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: white;
+    color:  #ec3237;
+}
+
+/* media query for responsiveness */
+@media screen and (max-width: 992px) and (min-width: 360px) {
+    .footer-container {
+        min-height: 10vh;
+        font-size: 0.75rem;
+        margin: 5px;
+        flex-direction: column;
+    }
+    .hyperlink {
+        width: 100%;
+    }
+    .icon {
+        font-size: 1rem;
+    }
+    .phone-icon {
+        margin: 3px 1px;
+        padding: 3px;
+    }
+}

@@ -1,0 +1,12 @@
+.logo-img img {
+    display: block;
+    width: 25%;
+    margin: auto;
+}
+
+/* media query for responsiveness */
+@media screen and (max-width: 992px) and (min-width: 360px) {
+    .logo-img img {
+        width: 50%;
+    }
+}
